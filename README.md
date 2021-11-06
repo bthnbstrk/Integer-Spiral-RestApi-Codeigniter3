@@ -30,12 +30,12 @@ Params: point_x : 5 point_y : 6 (Form-data)
 
 # 5.Kaynaklar
 
-https://github.com/yidas/codeigniter-rest
+https://github.com/yidas/codeigniter-rest  <br />
 https://www.geeksforgeeks.org/circular-matrix-construct-a-matrix-with-numbers-1-to-mn-in-spiral-way/
 
 # Ekstra
 
-Proje klasörü içerisinde postman import collection dosyası ve basit dökümantasyonumsu bir pdf yer almakta :)
+Proje klasörü içerisinde postman import collection dosyası ve basit dökümantasyon dosyası yer almakta.
 
 
 
