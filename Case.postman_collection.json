@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "9a7b183b-53e3-48bb-bc92-855ff6d0d1c2",
+		"name": "Case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET-ALL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "adamasmaca",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/map-case/api/layouts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"map-case",
+						"api",
+						"layouts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-LAYOUT",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "adamasmaca",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "layout_id",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/map-case/api/layout/31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"map-case",
+						"api",
+						"layout",
+						"31"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE-LAYOUT",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "adamasmaca",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "point_x",
+							"value": "30",
+							"type": "text"
+						},
+						{
+							"key": "point_y",
+							"value": "40",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/map-case/api/layouts/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"map-case",
+						"api",
+						"layouts",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
