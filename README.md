@@ -23,9 +23,9 @@ Kullanıma hazırsınız <br />
 
 Proje ana url sonuna:
 
-GET www.sizinverdiginizklasoradi/api/layout/id   <br />
-GET www.sizinverdiginizklasoradi/api/layouts  <br />
-POST www.sizinverdiginizklasoradi/api/layouts/create  <br />
+GET http://sizinverdiginizklasoradi/api/layout/id   <br />
+GET http://sizinverdiginizklasoradi/api/layouts  <br />
+POST http://sizinverdiginizklasoradi/api/layouts/create  <br />
 Params: point_x : 5 point_y : 6 (Form-data)
 
 # 5.Kaynaklar
